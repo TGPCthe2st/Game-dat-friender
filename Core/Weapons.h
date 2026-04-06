@@ -9,9 +9,10 @@
     *           - Attack Speed (interval in which the weapon is inactive)
 */
 #pragma once
+#include "Items.h"
 #include "peetsCUtil.h"
 
-class Weapon
+class Weapon : public items
 {
     string name;
     int stats [3]; // dType, baseDamage, attackSpeed
