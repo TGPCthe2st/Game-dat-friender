@@ -12,7 +12,7 @@
 #include "Items.h"
 #include "peetsCUtil.h"
 
-class Weapon : public items
+class Weapon : public Item
 {
     string name;
     int stats [3]; // dType, baseDamage, attackSpeed
